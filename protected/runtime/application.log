@@ -1,0 +1,378 @@
+2025/02/10 17:14:52 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:15:24 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:15:24 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:15:25 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:15:57 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:15:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:15:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:27 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:57 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:16:59 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'tu_usuario'@'localhost' (using password: YES) in /wwwroot/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /wwwroot/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /wwwroot/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive()
+#2 /wwwroot/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /wwwroot/yii/framework/base/CModule.php(103): CModule->getComponent()
+#4 /wwwroot/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get()
+#5 /wwwroot/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /wwwroot/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /wwwroot/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /wwwroot/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /wwwroot/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /wwwroot/yii/framework/web/CController.php(286): CController->runAction()
+#11 /wwwroot/yii/framework/web/CController.php(265): CController->runActionWithFilters()
+#12 /wwwroot/yii/framework/web/CWebApplication.php(282): CController->run()
+#13 /wwwroot/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /wwwroot/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/jramma/Git/Yeeee/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/default/index
+---
+2025/02/10 17:26:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_user`.
+in /home/jramma/Git/Yeeee/index.php (13)
+2025/02/10 17:27:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_user`.
+in /home/jramma/Git/Yeeee/index.php (13)
